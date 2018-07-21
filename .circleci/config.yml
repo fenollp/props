@@ -12,4 +12,5 @@ jobs:
         rebar3 --version
     - run: |
         rebar3 eunit
+        ! rebar3 do proper --regressions
         ! rebar3 proper
